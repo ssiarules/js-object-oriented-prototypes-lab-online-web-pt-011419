@@ -5,7 +5,7 @@
 
    }
 
-   this.veto = function(){
+   BoardMember.prototype.veto = function(){
      return 'No, I must disagree'
    }
    this.approve = function(){
